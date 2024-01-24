@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
     container: {
       center: true,
     },
@@ -12,13 +13,14 @@ export default {
       sm: ['18px', '24px'],
       lg: ['26px', '72px'],
       '5xl': ['3.2rem', '60px'],
-      
-      
+
+
     },
     extend: {
       fontFamily: {
-        
-              },
+        'dm-sans': ['DM Sans', 'sans-serif'],
+
+      },
       keyframes: {
         'open-menu': {
           '0%': { transform: 'scaleY(0)' },
@@ -40,7 +42,7 @@ export default {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       backgroundImage: {
-        
+
       },
       screens: {
         "wide": "1440px"

@@ -1,7 +1,11 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+
+  @apply font-dm-sans;
+}
 
 * {
   margin: 0;
@@ -14,7 +18,7 @@
   padding: 0 20% 0 0 !important;
 }
 
-.call-out{
+.call-out {
   background-image: url('assets/Collaborate.png');
   background-color: #f1f1f1 !important;
   background-size: contain !important;
@@ -24,9 +28,10 @@
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  .call-out{
+  .call-out {
     background-image: none !important;
   }
+
   .slick-list {
     padding: 0 5% 0 0 !important;
   }

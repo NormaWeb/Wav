@@ -5,11 +5,11 @@ function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className="bg-lemon padding-x pb-4 pt-8">
+    <nav className="container bg-lemon pb-4 pt-8">
       <div className="flex flex-col lg:flex-row lg:items-center">
 
         <div className="flex items-center justify-between">
-          <a href="#" className="text-5xl font-semibold text-primary">WAV</a>
+          <a href="#" className="text-[32px] font-semibold text-primary">WAV</a>
 
           <div className="flex gap-3 items-center lg:hidden">
             {/* Mobile navigation toggle */}

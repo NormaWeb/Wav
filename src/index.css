@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-
   @apply font-dm-sans;
 }
 
@@ -49,8 +48,12 @@ body {
 }
 
 @layer utilities {
+  .container {
+    @apply sm:px-16 px-8 lg:px-28 ;
+  }
+
   .padding {
-    @apply sm:px-16 px-8 sm:py-24 py-12;
+    @apply sm:px-28 px-8 sm:py-24 py-12;
   }
 
   .padding-x {

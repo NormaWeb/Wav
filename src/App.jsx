@@ -11,7 +11,7 @@ import Mainlayouts from "./layouts/Mainlayouts";
 const App = () => (
   <Mainlayouts>
 
-    <section className="padding bg-lemon">
+    <section className="container padding-y bg-lemon">
       <Unlock />
     </section>
 

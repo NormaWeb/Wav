@@ -10,28 +10,27 @@ import Mainlayouts from "./layouts/Mainlayouts";
 
 const App = () => (
   <Mainlayouts>
-
     <section className="container padding-y bg-lemon">
       <Unlock />
     </section>
 
-    <section className="padding">
+    <section className="container my-20">
       <Powerful />
     </section>
 
-     <section className="padding">
+    <section className="container">
       <Chat />
-    </section> 
+    </section>
 
     <section className="padding">
       <Choose />
     </section>
 
-    <section className="padding">
+    <section className="container mb-20">
       <FAQ />
     </section>
 
-    <section className="padding">
+    <section className="container">
       <Waitlist />
     </section>
 

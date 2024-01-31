@@ -1,7 +1,7 @@
 const Button = ({ label, backgroundColor, textColor, borderColor, fullWidth, url }) => {
   return (
     url ?
-      <a href={url} className={`flex justify-center items-center gap-1 px-10 py-5 border font-semibold text-sm leading-none rounded-lg
+      <a href={url} className={`inline-block px-10 py-4 border font-semibold text-[16px] leading-none rounded-lg
       ${backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : "bg-green text-white border-primary"}
@@ -9,7 +9,7 @@ const Button = ({ label, backgroundColor, textColor, borderColor, fullWidth, url
       >
         {label}
       </a> :
-      <button className={`flex justify-center items-center gap-1 px-10 py-5 border font-semibold text-sm leading-none rounded-lg
+      <button className={`flex justify-center items-center gap-1 px-10 py-4 border font-semibold text-[14px] leading-none rounded-lg
       ${backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : "bg-green text-white border-primary"}

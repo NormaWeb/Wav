@@ -15,7 +15,7 @@ function Navbar() {
             {/* Mobile navigation toggle */}
             <div className="lg:hidden flex items-center">
               <button onClick={() => setToggleMenu(!toggleMenu)}>
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAdxJREFUWEelV1EWwjAIozf35vNtqyuUAGHux6draSAk1CHlM2TIIccQkUMvdj/Ml9Hv4CCwdODt3aDM+mLNfH1+cI/aYArF7d5WaXCTAVVfrpbpwTF9F90M6LBCFvzVNwytNWlMz53Vgo/dfH2rT7SRmPMDbkpIoGhMHgxRstf/rhBTAnoNiWNfNuPzlHVbH3nMbmU5ZVZ+xN52KRZGVY6fBJHKtqRitbrsgQhquLekjFqGZE5dAmKElwgCtgvv1HXG8YqGBSiVNbo2VZzrxVYqAWWNGAxvTLiwqWkXVNMQ2fhLoN4YV6APSgyfE5+etM/HqyacZRcUakh70DS4KXs/AiOGS0AvWdGzak0u1QERIEAZA4GeGTM+dUHTDVvcKpQ6UE8s5plk7jn/PKm9NKSbxixM0jt1KnuGDq4SWxkeSnKn1i0HgHaPdkUO8rOUrV3FcNXNYyOTQD07p/6SzaXscVtFXe5Aj+0q9PAB/1YMkSNH1K2KS500RrLehRkwmoRrII/9aKkZAQaiK4qZZREF8f2mLqYF6nwO5OGNkS5PDecMldoaGAh/XdA4SMklpvKhVMbgZQ8QtzqnLI3BkEHz/3D7TmWuO6ODYzfPdsRpAC/DF0mODncLACd/AVLEyCtPWh9jAAAAAElFTkSuQmCC" />
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAdxJREFUWEelV1EWwjAIozf35vNtqyuUAGHux6draSAk1CHlM2TIIccQkUMvdj/Ml9Hv4CCwdODt3aDM+mLNfH1+cI/aYArF7d5WaXCTAVVfrpbpwTF9F90M6LBCFvzVNwytNWlMz53Vgo/dfH2rT7SRmPMDbkpIoGhMHgxRstf/rhBTAnoNiWNfNuPzlHVbH3nMbmU5ZVZ+xN52KRZGVY6fBJHKtqRitbrsgQhquLekjFqGZE5dAmKElwgCtgvv1HXG8YqGBSiVNbo2VZzrxVYqAWWNGAxvTLiwqWkXVNMQ2fhLoN4YV6APSgyfE5+etM/HqyacZRcUakh70DS4KXs/AiOGS0AvWdGzak0u1QERIEAZA4GeGTM+dUHTDVvcKpQ6UE8s5plk7jn/PKm9NKSbxixM0jt1KnuGDq4SWxkeSnKn1i0HgHaPdkUO8rOUrV3FcNXNYyOTQD07p/6SzaXscVtFXe5Aj+0q9PAB/1YMkSNH1K2KS500RrLehRkwmoRrII/9aKkZAQaiK4qZZREF8f2mLqYF6nwO5OGNkS5PDecMldoaGAh/XdA4SMklpvKhVMbgZQ8QtzqnLI3BkEHz/3D7TmWuO6ODYzfPdsRpAC/DF0mODncLACd/AVLEyCtPWh9jAAAAAElFTkSuQmCC" />
               </button>
             </div>
           </div>
@@ -31,11 +31,9 @@ function Navbar() {
           </ul>
 
           <div className='font-semibold mt-5 lg:mt-0'>
-           <a href="#waitlist"> <Button label="Join the waitlist"/> </a>
+            <Button url="#our-pricing" label="Join the waitlist" />
           </div>
         </div>
-
-
       </div>
     </nav >
   );

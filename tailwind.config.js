@@ -10,6 +10,7 @@ export default {
     },
 
     fontSize: {
+      heading: ['18px', '24px'],
       sm: ['18px', '24px'],
       lg: ['26px', '72px'],
       '5xl': ['3.2rem', '60px'],

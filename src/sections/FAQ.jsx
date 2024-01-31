@@ -34,7 +34,7 @@ const FAQ = () => {
 
                 <div className="max-w-lg">
                     {faqData.map((item, index) => (
-                        <div key={index} className={`py-6 px-8 bg-white shadow-md mb-4 ${activeIndex === index ? '' : ''}`}>
+                        <div key={index} className={`py-8 px-10 bg-white shadow-lg mb-4 ${activeIndex === index ? '' : ''}`}>
                             <button
                                 className="flex text-start items-center justify-between w-full"
                                 onClick={() => handleAccordionClick(index)}

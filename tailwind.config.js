@@ -37,6 +37,8 @@ export default {
         "lite-green": "#128C7E",
         "lemon": "#DCF8C6",
         "brown": "#EBE4DC",
+        "sky-blue": "#5bc5d5",
+
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'

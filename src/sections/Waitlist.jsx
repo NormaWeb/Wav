@@ -10,7 +10,7 @@ const Waitlist = () => {
             </div>
 
             <div className="flex justify-center items-center mt-10">
-                <Button label="Join the waitlist" />
+                <Button url="#our-pricing" label="Join the waitlist" />
             </div>
 
         </section>

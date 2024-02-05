@@ -10,7 +10,7 @@ function Footer() {
         </div>
 
         <ul className="flex flex-col lg:flex-row gap-10 text-primary mb-4 lg:mb-0 ">
-          <li><a href="#" className="hover:text-lite-green text-sm">Join the waitlist</a></li>
+          <li><a href="#our-pricing" className="hover:text-lite-green text-sm">Join the waitlist</a></li>
           <li><a href="#" className="hover:text-lite-green text-sm">Terms & conditions</a></li>
           <li><a href="#" className="hover:text-lite-green text-sm">Privacy Policy</a></li>
         </ul>

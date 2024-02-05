@@ -7,6 +7,7 @@ function Footer() {
         <div className="mb-14 lg:mb-0">
           <a href="#" className="font-semibold text-5xl font-semibold text-primary">WAV</a>
           <div className="text-primary text-sm"> 2024 WAV, All Rights Reserved.</div>
+          <div className="text-primary text-[12px]">Powered by <a href="http://oniontabs.com" target="_blank" rel="noopener noreferrer">Oniontabs</a></div>
         </div>
 
         <ul className="flex flex-col lg:flex-row gap-10 text-primary mb-4 lg:mb-0 ">

@@ -15,7 +15,7 @@ function Footer() {
           <li><a href="#" className="hover:text-lite-green text-sm">Privacy Policy</a></li>
         </ul>
       </div>
-      <div className="text-primary text-[14px]">Powered by <a href="http://oniontabs.com" target="_blank" rel="noopener noreferrer">Oniontabs</a></div>
+      <div className="text-primary text-[14px] mt-4 lg:mt-0">Powered by <a href="http://oniontabs.com" target="_blank" rel="noopener noreferrer">Oniontabs</a></div>
 
     </section>
   );

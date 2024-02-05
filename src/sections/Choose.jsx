@@ -22,7 +22,7 @@ const Choose = () => {
                         </div>
 
 
-                        <ul class="list-inside list-disc text-center">
+                        <ul class="list-disc text-center">
                             <li>Connect with fellow vendors </li>
                             <li>Basic Online visibility </li>
                             <li>Limited access to community features </li>
@@ -46,7 +46,7 @@ const Choose = () => {
                         </div>
 
 
-                        <ul class="list-inside list-disc text-center">
+                        <ul class="list-disc text-center">
                             <li>All features from the Starter tier</li>
                             <li>Expanded contact list capabilities</li>
                             <li>Enhanced online visibility</li>

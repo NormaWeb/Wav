@@ -9,20 +9,24 @@ const FAQ = () => {
 
     const faqData = [
         {
-            question: 'How to get an extension on a payment?',
-            answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere provident dolore consequatur optio, nisi ratione quasi alias ipsum aliquam odio sapiente ab aspernatur inventore cupiditate tempore autem consequuntur rerum saepe! ',
+            question: 'What is WAV?',
+            answer: "WAV is a dedicated space for WhatsApp vendors to connect, grow their contact lists, and enhance their online visibility. It's a platform designed to empower vendors and take their businesses to new heights.",
         },
         {
-            question: 'What are your store hours?',
-            answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere provident dolore consequatur optio, nisi ratione quasi alias ipsum aliquam odio sapiente ab aspernatur inventore cupiditate tempore autem consequuntur rerum saepe!',
+            question: 'Is it free to join the waitlist?',
+            answer: "Yes, joining the waitlist is completely free! Simply sign up to secure your spot and gain early access to WAV's exclusive features.",
         },
         {
-            question: 'How would I be able to get my money back from a fraudulent claim?',
-            answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere provident dolore consequatur optio, nisi ratione quasi alias ipsum aliquam odio sapiente ab aspernatur inventore cupiditate tempore autem consequuntur rerum saepe!',
+            question: 'What benefits do I get as a waitlist member?',
+            answer: "As a waitlist member, you'll enjoy exclusive perks, early access to the platform, and a community of like-minded vendors. Be part of the journey and unlock tools to accelerate your WhatsApp business.",
         },
         {
-            question: 'What kind of warranty comes with all of your products?',
-            answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere provident dolore consequatur optio, nisi ratione quasi alias ipsum aliquam odio sapiente ab aspernatur inventore cupiditate tempore autem consequuntur rerum saepe!',
+            question: "What's included in the Premium Tier?",
+            answer: "The Premium Tier, priced at N2,000/month, includes all the features from the Starter tier, with added benefits like expanded contact list capabilities, enhanced online visibility, and priority access to new features.",
+        },
+        {
+            question: "Is there a money-back guarantee?",
+            answer: "Yes, all plans come with a 30-day money-back guarantee. If you're not satisfied with your subscription within the first 30 days, we'll refund your payment, no questions asked.",
         },
     ];
 

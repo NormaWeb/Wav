@@ -29,7 +29,7 @@ const Choose = () => {
                         </ul>
 
                         <div className="flex justify-center items-center mt-8">
-                            <Button url="https://forms.gle/W6hmqq8m2edyLrEt8" label="Get started" size="small" />
+                            <Button url="https://forms.gle/W6hmqq8m2edyLrEt8" label="Join the Waitlist" size="small" />
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Choose = () => {
                         </ul>
 
                         <div className="flex justify-center items-center mt-8">
-                            <Button url="https://forms.gle/W6hmqq8m2edyLrEt8" label="Get started" size="small" variant="secondary" />
+                            <Button url="https://forms.gle/W6hmqq8m2edyLrEt8" label="Join the Waitlist" size="small" variant="secondary" />
                         </div>
                     </div>
                 </div>
